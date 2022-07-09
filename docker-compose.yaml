@@ -1,0 +1,6 @@
+services:
+  jane_account:
+    build: .
+    shm_size: 2.6gb
+    ports:
+      - "80:80"
